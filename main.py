@@ -49,7 +49,7 @@ while contador >= 0 and contador < 10:
 
   user_inputs = []
   for i in range(len(random_values)):
-    user_input = input("Entre os valores memorizados na ordem correta: ").capitalize()
+    user_input = input("Entre um valor e pressione Enter: ").capitalize()
     user_inputs.append(user_input)
 
   for i in range(len(random_values)):
